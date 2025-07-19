@@ -1,12 +1,39 @@
-# React + Vite
+# CubeMaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CubeMaster is a personal project built using **ReactJS**, **Tailwind CSS**, **DaisyUI**, and **Flowbite**. It's a mock e-commerce website focused on Rubik’s cubes and speedcubing accessories. This project was created for learning purposes and to practice frontend development with modern tools and libraries.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Multi-page layout using React Router (`HashRouter` for GitHub Pages compatibility)
+- Styled using Tailwind CSS with UI components from DaisyUI and Flowbite
+- Responsive design for mobile and desktop
+- Shopping cart system with basic add/remove functionality
+- Footer with useful links and external resources
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS**
+- **Tailwind CSS**
+- **DaisyUI**
+- **Flowbite**
+- **Vite** for fast build and development
+
+## 📦 Deployment
+
+This project is deployed on **GitHub Pages** and uses `HashRouter` to ensure client-side routing works properly.
+
+## 📚 Purpose
+
+This is a personal project created to:
+
+- Practice building React applications
+- Learn and apply Tailwind CSS and UI libraries
+- Understand routing and deployment via GitHub Pages
+
+## 🔗 Live Demo
+
+[CubeMaster Web Demo](https://jpmartirez.github.io/cube-master/)
+
+---
+
+> Built with ❤️ for educational purposes.
