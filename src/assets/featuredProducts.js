@@ -1,0 +1,48 @@
+const featuredProducts = [
+    {
+      id: 2,
+      name: "Magnetic 2x2 Pro",
+      price: 14.99,
+      originalPrice: null,
+      image: "https://cuboss.com/wp-content/uploads/2021/04/2x2-speedcube-2x2-Rubiks-cube.jpg",
+      rating: 4.6,
+      reviews: 112,
+      badge: "Best Seller",
+      difficulty: "Intermediate",
+    },
+    {
+      id: 9,
+      name: "Magnetic 3x3 Elite",
+      price: 29.99,
+      originalPrice: 36.99,
+      image: "https://m.media-amazon.com/images/I/71XlHvpZblL._UF894,1000_QL80_.jpg",
+      rating: 4.9,
+      reviews: 212,
+      badge: "New",
+      difficulty: "Advanced",
+    },
+    {
+      id: 23,
+      name: "Mirror Cube Silver",
+      price: 18.99,
+      originalPrice: 25.99,
+      image: "https://toyshine.in/cdn/shop/files/719VmEmUQNL._SL1477.jpg?v=1723438067",
+      rating: 3.7,
+      reviews: 203,
+      badge: "Sale",
+      difficulty: "Expert",
+    },
+    {
+      id: 20,
+      name: "Magnetic Pyraminx Pro",
+      price: 21.99,
+      originalPrice: null,
+      image: "https://m.media-amazon.com/images/I/61EuO8+lTYL._AC_SL1500_.jpg",
+      rating: 4.7,
+      reviews: 105,
+      badge: "",
+      difficulty: "Advanced",
+    },
+  ]
+
+export default featuredProducts;

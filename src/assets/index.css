@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes appearLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.cardAppear {
+    animation: appear 0.6s ease-out;
+}
+
+.cardAppearLeft{
+    animation: appearLeft 1s ease-out;
+}
+
+.cardLeftView{
+    animation: appearLeft linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
