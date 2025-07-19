@@ -1,5 +1,6 @@
 import React from 'react'
 import { Zap, Trophy } from "lucide-react"
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -19,10 +20,10 @@ const Hero = () => {
                 your perfect cube today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-md transition-colors flex items-center justify-center cursor-pointer">
+                <Link to="/products" className="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-md transition-colors flex items-center justify-center cursor-pointer">
                   <Zap className="w-5 h-5 mr-2" />
                   Shop Speed Cubes
-                </button>
+                </Link>
                 <a href='https://www.worldcubeassociation.org/competitions?' target='_blank' className="px-6 py-3 border-2 border-white text-white hover:bg-white hover:text-blue-600 bg-transparent rounded-md transition-colors flex items-center justify-center cursor-pointer">
                   <Trophy className="w-5 h-5 mr-2" />
                   Competition Gear
