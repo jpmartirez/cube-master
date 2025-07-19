@@ -23,12 +23,12 @@ const Footer = () => {
               <h5 className="font-semibold mb-4">Quick Links</h5>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="/cube-master" className="hover:text-white transition-colors">
+                  <a href="/" className="hover:text-white transition-colors">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master/products" className="hover:text-white transition-colors">
+                  <a href="/products" className="hover:text-white transition-colors">
                     Products
                   </a>
                 </li>
@@ -39,7 +39,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master/about" className="hover:text-white transition-colors">
+                  <a href="/about" className="hover:text-white transition-colors">
                     About Us
                   </a>
                 </li>
@@ -49,22 +49,22 @@ const Footer = () => {
               <h5 className="font-semibold mb-4">Support</h5>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="/cube-master" className="hover:text-white transition-colors">
+                  <a href="/" className="hover:text-white transition-colors">
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master" className="hover:text-white transition-colors">
+                  <a href="/" className="hover:text-white transition-colors">
                     Shipping
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master" className="hover:text-white transition-colors">
+                  <a href="/" className="hover:text-white transition-colors">
                     Returns
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master" className="hover:text-white transition-colors">
+                  <a href="/" className="hover:text-white transition-colors">
                     FAQ
                   </a>
                 </li>

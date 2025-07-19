@@ -31,10 +31,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/cube-master" element={<Homepage cartCount={cartCount} addItems={addItems}/>} />
-      <Route path="/cube-master/about" element={<About cartCount={cartCount}/>} />
-      <Route path="/cube-master/products" element={<Products cartCount={cartCount} addItems={addItems}/>} />
-      <Route path="/cube-master/cart" element={<Cart items={items} deleteItems={deleteItems}/>} />
+      <Route path="/" element={<Homepage cartCount={cartCount} addItems={addItems}/>} />
+      <Route path="/about" element={<About cartCount={cartCount}/>} />
+      <Route path="/products" element={<Products cartCount={cartCount} addItems={addItems}/>} />
+      <Route path="/cart" element={<Cart items={items} deleteItems={deleteItems}/>} />
     </Routes>
   )
 }

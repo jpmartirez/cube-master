@@ -10,7 +10,7 @@ const EmptyCart = () => {
                     <ShoppingCartIcon fontSize='large'/>
                     <h2 className="card-title text-3xl">Your cart is empty</h2>
                     <p className='text-center text-xl'>Looks like you haven't added anything to your cart yet.</p>
-                    <Link to="/cube-master/products" className="card-actions">
+                    <Link to="/products" className="card-actions">
                         <button className="btn btn-primary mt-5">Start Shopping</button>
                     </Link>
                 </div>
