@@ -28,7 +28,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master/products" className="hover:text-white transition-colors">
+                  <a href="/cube-master/#/products" className="hover:text-white transition-colors">
                     Products
                   </a>
                 </li>
@@ -39,7 +39,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/cube-master/about" className="hover:text-white transition-colors">
+                  <a href="/cube-master/#/about" className="hover:text-white transition-colors">
                     About Us
                   </a>
                 </li>
